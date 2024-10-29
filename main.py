@@ -11,7 +11,7 @@ from comtypes import CLSCTX_ALL
 from math import hypot
 
 app = Flask(__name__)
-socketio = SocketIO(app)
+socketio = SocketIO(app, cors_allowed_origins="http://localhost:5173")
 
 # Hand detection and volume/brightness control setup
 mpHands = mp.solutions.hands

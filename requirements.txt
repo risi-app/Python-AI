@@ -1,0 +1,10 @@
+Flask~=3.0.3
+Flask-SocketIO
+opencv-python~=4.10.0.84
+mediapipe~=0.10.14
+numpy~=1.26.4
+screen_brightness_control~=0.23.0
+pycaw~=20240210
+comtypes~=1.4.7
+PyAutoGUI~=0.9.54
+requests~=2.32.3
